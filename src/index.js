@@ -17,14 +17,13 @@ flint.start();
 flint.hears(/.+/g, commands.shake);
 
 app.post('/flint', webhook(flint));
-var server = app.listen(config.port, function () {
+
+var server = app.listen(config.port, () => {
   flint.debug('Flint listening on port %s', config.port);
 });
 
-process.on('SIGINT', function() {
+process.on('SIGINT', () => {
   flint.debug('Shutting down...');
   server.close();
-  flint.stop().then(function() {
-    process.exit();
-  });
+  flint.stop().then(() => process.exit() );
 });
