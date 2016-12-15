@@ -1,4 +1,7 @@
 # spark-magic-8-ball
+
+[![Travis branch](https://img.shields.io/brh55/spark-magic-8-ball/master.svg)]()
+
 The best solution to all of your questions, a magic 8 ball! But now within your Cisco Spark room.
 
 ![Demo Image](https://cloud.githubusercontent.com/assets/6020066/21218766/b42928f2-c266-11e6-81c6-5746f518b09b.png)
@@ -8,7 +11,7 @@ Add @bot-name to your room, and mention the bot along with a question *(? is opt
 
 ## Deployment
 1. Cisco developer account
-2. Create an app/bot to be used for your team's domain
+2. Create an app/bot to be used for your team's domain (reference the bot-icon.png for the bot icon for convenience).
 3. Copy the example.env to your own .env file, and define the variables
     `$ cp example.env .env`
 4. After a successful URL pointing to your server, start the server
@@ -16,6 +19,7 @@ Add @bot-name to your room, and mention the bot along with a question *(? is opt
 
 ### Quick Deploy to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+*Note: You must login before it will direct you to the quick deploy page.*
 
 ## Contribution
 This is a fairly small scope project, but am always willing to take usability improvements, bug fixes, etc. 
