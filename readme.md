@@ -1,6 +1,5 @@
 # spark-magic-8-ball
-
-[![Travis branch](https://img.shields.io/brh55/spark-magic-8-ball/master.svg)]()
+[![Travis branch](https://img.shields.io/travis/brh55/spark-magic-8-ball/master.svg)]()
 
 The best solution to all of your questions, a magic 8 ball! But now within your Cisco Spark room.
 
