@@ -10,6 +10,7 @@
   "env": {
     "WEBHOOK_URL": {
       "description": "Spark web hook url in order for the bot to be notified",
+      "value": "https://heroku-bot-name.herokuapp.com/",
       "required": true
     },
     "TOKEN": {
@@ -17,7 +18,7 @@
       "required": true
     },
     "PORT": {
-      "description": "Port of bot to be running on",
+      "description": "Port for the bot to be running on",
       "required": false
     }
   }
