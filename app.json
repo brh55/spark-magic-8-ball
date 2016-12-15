@@ -10,7 +10,7 @@
   "env": {
     "WEBHOOK_URL": {
       "description": "Spark web hook url in order for the bot to be notified",
-      "value": "https://heroku-bot-name.herokuapp.com/",
+      "value": "https://heroku-bot-name.herokuapp.com/flint",
       "required": true
     },
     "TOKEN": {
