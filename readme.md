@@ -1,14 +1,21 @@
-# spark-bot-seed
-A slightly opinionated starter seed for building Cisco Spark bot in node.js and [flint](https://github.com/nmarus/flint).
+# spark-magic-8-ball
+The best solution to all of your questions, a magic 8 ball! But now within your Cisco Spark room.
+
+![Demo Image](https://cloud.githubusercontent.com/assets/6020066/21218766/b42928f2-c266-11e6-81c6-5746f518b09b.png)
 
 ## Usage
-`$ yarn install` or `$ npm install`
+Add @bot-name to your room, and mention the bot along with a question *(? is optional)*
 
-## Commands
-`$ yarn <command>` or `$ npm run <command>`
+## Deployment
+1. Cisco developer account
+2. Create an app/bot to be used for your team's domain
+3. Copy the example.env to your own .env file, and define the variables
+    `$ cp example.env .env`
+4. After a successful URL pointing to your server, start the server
+    `$ npm start`
 
-| Commands | Description                   |
-|----------|-------------------------------|
-| test     | Execute mocha test runner     |
-| build    | Compiles babel for production |
-| dev      | Execute src/index.js          |
+### Quick Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+## Contribution
+This is a fairly small scope project, but am always willing to take usability improvements, bug fixes, etc. 
