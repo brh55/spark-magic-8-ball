@@ -1,0 +1,27 @@
+{
+  "name": "spark-bot-seed",
+  "version": "0.0.1",
+  "description": "A starter template for Cisco Spark bots.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "cp example.env .env && npm run build && ./node_modules/mocha/bin/mocha --timeout 4000",
+    "build": "babel src --out-dir dist",
+    "dev": "babel-node src/index.js",
+    "debug": "DEBUG=* babel-node src/index.js",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "mocha": "^3.2.0",
+    "node-flint": "^4.3.2",
+    "rewire": "^2.5.2"
+  }
+}
