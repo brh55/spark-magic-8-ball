@@ -1,6 +1,7 @@
 {
   "name": "Spark Magic 8 Ball",
   "description": "A magic 8 ball in any spark room",
+  "logo": "https://raw.githubusercontent.com/brh55/spark-magic-8-ball/master/bot-icon.png",
   "keywords": [
     "bot",
     "spark",
