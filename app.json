@@ -1,6 +1,6 @@
 {
-  "name": "spark-bot-seed",
-  "description": "A spark bot starter template",
+  "name": "Spark Magic 8 Ball",
+  "description": "A magic 8 ball in any spark room",
   "keywords": [
     "bot",
     "spark",
